@@ -78,8 +78,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="Homepage melkweg.nl">
+<img src="images/screencapture-melkweg-nl-nl-2020-11-08-13_13_07.png" width="375px" alt="Homepage melkweg.nl">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="Agenda van melkweg.nl">
+<img src="images/screencapture-melkweg-nl-nl-agenda-2020-11-08-13_12_50.png" width="375px" alt="Agenda van melkweg.nl">
