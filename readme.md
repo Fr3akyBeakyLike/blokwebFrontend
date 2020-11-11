@@ -3,7 +3,11 @@
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
-
+## Oefeningen
+1. [Oefening 1 en 2 van typografie](https://codepen.io/fr3akybeakylike/pen/JjKegmY)
+2.
+3.
+4.
 
 ## Bronnenlijst
 1. -bron 1-
