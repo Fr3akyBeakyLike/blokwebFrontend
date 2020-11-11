@@ -64,6 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
+<img src="images/breakdown-schets-Melkweg-homepage.png" width="375px" alt="Breakdownschets mobile homepage">
 
 
 ## Intake (week 1)
@@ -79,7 +80,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s) van de eerste pagina (small screen):**
 
 <img src="images/screencapture-melkweg-nl-nl-2020-11-08-13_13_07.png" width="375px" alt="Homepage melkweg.nl">
+<img src="images/melkweg-homepage-mobile.png" width="375px" alt="Homepage melkweg.nl, mobile sized">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
 <img src="images/screencapture-melkweg-nl-nl-agenda-2020-11-08-13_12_50.png" width="375px" alt="Agenda van melkweg.nl">
+<img src="melkweg-agenda-mobile.png" width="375px" alt="Agenda van melkweg.nl, mobile sized">
