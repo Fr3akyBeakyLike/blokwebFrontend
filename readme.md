@@ -67,6 +67,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Breakdownschets (week 1)
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
+**Verbeterpunten**
+1. Net bevestigd wordt een table
+2. Little dragon wordt een article
+3. Over melkweg tot de nieuwsbrief is de footer
+4. De nieuwsbrief is een aside
+5. Fig caption toevoegen aan de img
 
 <img src="images/breakdown-schets-Melkweg-homepage.png" width="375px" alt="Breakdownschets mobile homepage">
 
