@@ -68,7 +68,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 **Verbeterpunten**
- Markup : * Net bevestigd wordt een table
+ * Net bevestigd wordt een table
  * Little dragon wordt een article
  * Over melkweg tot de nieuwsbrief is de footer
  * De nieuwsbrief is een aside
