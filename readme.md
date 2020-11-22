@@ -7,7 +7,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. [Oefening 1 en 2 van typografie](https://codepen.io/fr3akybeakylike/pen/JjKegmY)
 2. [Oefening 1 van positionering](https://codepen.io/fr3akybeakylike/pen/zYBVbPV)
 3. [Oefening 2 van positionering](https://codepen.io/fr3akybeakylike/pen/JjKQVGb)
-4.
+4. [Oefening 1 van flexbox](https://codepen.io/fr3akybeakylike/pen/bGePyae)
+4. 
 
 ## Bronnenlijst
 1. -bron 1-
