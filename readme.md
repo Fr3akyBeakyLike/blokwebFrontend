@@ -11,7 +11,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 5. [Oefening 2 van flexbox](https://codepen.io/fr3akybeakylike/pen/OJRLGJg)
 6. [Oefening 1 van JS 3-stap](https://codepen.io/fr3akybeakylike/pen/KKgwMNg)
 7. [Oefening 2 van JS 3-stap](https://codepen.io/fr3akybeakylike/pen/poEvbNN)
-8. [Oefening 3 van JS 3-stap](https://codepen.io/fr3akybeakylike/pen/yLayJVg)
 
 ## Bronnenlijst
 1. -bron 1-
