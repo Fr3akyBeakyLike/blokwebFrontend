@@ -63,7 +63,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-Na afloop snel uitkomsten vastleggen-
+- Alle teksten tegen de tags aan zetten zoals de h2's en p's.
+- JS script onderin zetten.
+- List gebruiken in plaats van de table.
+- Articles bewerken zodat de H2's bovenaan staan, alles moet op hierarchische volgorde.
+- Geen link in een button stoppen.
+- Styling van images weghalen.
+- Een icoon toevoegen bij de tags in de articles met een :before styling (misschien kan er een unicode toegevoegd worden).
+- Figcaption in de search form gebruiken, dit maakt het stylen makkelijker.
 
 
 
