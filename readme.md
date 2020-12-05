@@ -8,7 +8,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. [Oefening 1 van positionering](https://codepen.io/fr3akybeakylike/pen/zYBVbPV)
 3. [Oefening 2 van positionering](https://codepen.io/fr3akybeakylike/pen/JjKQVGb)
 4. [Oefening 1 van flexbox](https://codepen.io/fr3akybeakylike/pen/bGePyae)
-4. 
+5. [Oefening 2 van flexbox](https://codepen.io/fr3akybeakylike/pen/OJRLGJg)
+6. [Oefening 1 van JS 3-stap](https://codepen.io/fr3akybeakylike/pen/KKgwMNg)
+7. [Oefening 2 van JS 3-stap](https://codepen.io/fr3akybeakylike/pen/poEvbNN)
+8. [Oefening 1 van grid](https://codepen.io/fr3akybeakylike/pen/MWjaXbz)
+9. [Oefening 2 van grid](https://codepen.io/shooft/pen/vYGrXEX)
 
 ## Bronnenlijst
 1. -bron 1-
@@ -61,7 +65,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-Na afloop snel uitkomsten vastleggen-
+- Alle teksten tegen de tags aan zetten zoals de h2's en p's.
+- JS script onderin zetten.
+- List gebruiken in plaats van de table.
+- Articles bewerken zodat de H2's bovenaan staan, alles moet op hierarchische volgorde.
+- Geen link in een button stoppen.
+- Styling van images weghalen.
+- Een icoon toevoegen bij de tags in de articles met een :before styling (misschien kan er een unicode toegevoegd worden).
+- Figcaption in de search form gebruiken, dit maakt het stylen makkelijker.
 
 
 
