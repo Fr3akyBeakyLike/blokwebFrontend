@@ -3,3 +3,43 @@
   box-sizing:border-box;  
 }
 
+body {
+  font-family: Melkweg,Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #b40046;
+  padding: 0 1em;
+  text-transform: uppercase;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header nav a {
+  display: block;
+}
+
+header ul:first-of-type {
+  list-style: none;
+  display: flex;
+  background-color: hsla(0,0%,8%,.8);
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header ul:nth-of-type(2) {
+  display: flex;
+  list-style: none;
+  background-color: #141414;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
