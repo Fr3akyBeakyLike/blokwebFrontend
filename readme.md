@@ -13,6 +13,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 7. [Oefening 2 van JS 3-stap](https://codepen.io/fr3akybeakylike/pen/poEvbNN)
 8. [Oefening 1 van grid](https://codepen.io/fr3akybeakylike/pen/MWjaXbz)
 9. [Oefening 2 van grid](https://codepen.io/shooft/pen/vYGrXEX)
+10. [Oefening 1 van Media Queries](https://codepen.io/fr3akybeakylike/pen/GRjZdPb)
+11. [Oefening 2 van Media Queries](https://codepen.io/fr3akybeakylike/pen/ExgKLqL)
+12. [Oefening 3 van Media Queries](https://codepen.io/fr3akybeakylike/pen/jOMqKVw)
 
 ## Bronnenlijst
 1. -bron 1-
