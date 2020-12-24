@@ -72,19 +72,39 @@ article img {
 /* Form movement */
 
 header nav ul:nth-of-type(2) li:nth-of-type(6) {
-  display: flex;
+  display: block;
   position: fixed;
-  top: 5.5em;
+  top: 5em;
+  right: 0;
+  left: 0;
+  background-color: #000000;
+  height: 3.125em;
+  width: 100%;
 
-  transform: translateX(200%);
+  transform: translateX(0%);
   transition: .5s;
 }
 
-/* header nav ul:nth-of-type(2) li:nth-of-type(6) form input {
-  flex-grow: 2;
-} */
+header nav ul:nth-of-type(2) li:nth-of-type(6) form {
+  display: flex;
+  padding: 0.3125em 0.625em 0 0.625em;
+}
+
+header nav ul:nth-of-type(2) li:nth-of-type(6) form input {
+  flex-grow: 1;
+  vertical-align: middle;
+  padding: 0 3.125em 0 0.625em;
+  height: 2.5em;
+  line-height: 2.5em;
+  border: 0;
+  border-bottom: 0.0625em solid #666;
+  background: transparent;
+  color: white;
+  transition: border-color .15s ease-out;
+  border-radius: 0;
+}
 
 header nav ul:nth-of-type(2) li:nth-of-type(6).moveForm {
-  transform: translateX(0%);
+  transform: translateX(100%);
   transition: .5s;
 }
