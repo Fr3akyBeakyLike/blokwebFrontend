@@ -40,10 +40,18 @@ header nav ul ul {
   padding: 0.125em;
 }
 
+h1 {
+  font-size: 1.5em;
+}
+
 /* Rode box om NL heen, dit is de active page */
 header nav ul ul li:nth-of-type(1) {
   background: #7e0031;
   color: #fff;
+}
+
+header nav ul ul:nth-of-type(1) a {
+  font-size: 0.75em;
 }
 
 /* Tweede lijn navigate */
@@ -62,7 +70,7 @@ header nav a {
   line-height: 2.5em;
   font-size: 1em;
   text-align: center;
-  padding: 0 5px;
+  padding: 0 0.3125em;
 }
 
 article img {
@@ -107,4 +115,119 @@ header nav ul:nth-of-type(2) li:nth-of-type(6) form input {
 header nav ul:nth-of-type(2) li:nth-of-type(6).moveForm {
   transform: translateX(100%);
   transition: .5s;
+}
+
+button {
+  border: 0;
+  background: none;
+}
+
+/* Search icon */
+.fa-search {
+  color: white;
+}
+
+/* Melkweg in tijden van Corona */
+article {
+  position: relative;
+  background: #fff;
+  color: #141414;
+
+}
+
+article h2 {
+  position: absolute;
+  top: 8em;
+  font-size: 1.625em;
+  padding: 0 .6em;
+  text-transform: uppercase;
+}
+
+article p {
+  font-size: 0.875em;
+  padding: 5em 1.25em 0em 1.25em;
+}
+
+article a:nth-of-type(2) {
+  display: inline-block;
+  padding: 0.625em;
+  margin-left: 1.25em;
+  font-size: 1em;
+  text-align: center;
+  background-color: #b40046;
+
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Net bevestigd */
+section:nth-of-type(1) {
+  background-color: #6b7a92;
+  border-top: #141414 2em;
+
+  margin-top: 1.5em;
+  padding: 1.875em 1.25em 0 1.25em;
+}
+
+section:nth-of-type(1) h2 {
+  font-size: 1.625em;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 0;
+}
+
+section:nth-of-type(1) ul {
+  list-style: none;
+  padding: 0;
+}
+
+section:nth-of-type(1) ul a {
+  display: grid;
+  grid-template-columns: 25% 75%;
+
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  line-height: .1em;
+}
+
+section:nth-of-type(1) ul a p time {
+  color: hsla(0, 0%, 100%, .7);
+  margin-top: 0;
+}
+
+section:nth-of-type(1) ul a p:nth-of-type(2) {
+  margin-left: 1em;
+}
+
+section:nth-of-type(1) a#AlleBevestigingen {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+
+  margin: 1em -1.5625em 0 -1.5625em;
+  padding: 0 1.5625em;
+  display: block;
+  background: #4b5566;
+  line-height: 2.8125em;
+
+}
+
+/* Aside Merchandise */
+aside a {
+  font-size: .8em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+
+  display: block;
+  padding: 10px 15px;
+  line-height: 2.5em;
+  background: #b40046;
 }
