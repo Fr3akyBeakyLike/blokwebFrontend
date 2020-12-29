@@ -143,7 +143,7 @@ article h2 {
   text-transform: uppercase;
 }
 
-article p {
+article:nth-of-type(1) p#coronaTijden {
   font-size: 0.875em;
   padding: 5em 1.25em 0em 1.25em;
 }
@@ -230,4 +230,84 @@ aside a {
   padding: 10px 15px;
   line-height: 2.5em;
   background: #b40046;
+}
+
+/* Articles */
+
+section:nth-of-type(2) article figure {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+section:nth-of-type(2) article figure div {
+  display: flex;
+  position: absolute;
+  bottom: 0.25em;
+  left: 0;
+}
+
+section:nth-of-type(2) article figure div time {
+  background-color: #333;
+  color: white;
+
+  font-size: 1em;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  font-weight: 400;
+  padding: 0.625em;
+}
+
+section:nth-of-type(2) article figure div a {
+  display: inline-block;
+  line-height: 1.5em;
+  width: 2em;
+  padding-top: 0.3em;
+  border: 0;
+  background: #b40046;
+  color: #fff;
+  font-size: 1.3em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+section:nth-of-type(2) article h2 {
+  color: #141414;
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+section:nth-of-type(2) article ul {
+  padding: 3.450em 1.250em 2em 1.450em;
+  margin: 0;
+  font-size: 0.813em;
+  color: #666666;
+}
+
+section:nth-of-type(2) article ul li {
+  display: flex;
+  align-items: center;
+  line-height: 0em;
+}
+
+section:nth-of-type(2) article ul li span {
+  padding-right: .2em;
+}
+
+section article ul li p {
+padding-left: .5em;
+padding-top: 0;
+}
+
+/* Yung Lean tags */
+section article:nth-of-type(3) ul li p {
+  line-height: 1em;
+}
+
+/* Starring you nu online */
+section article:nth-of-type(4) p {
+ padding: 3em 1.25em 0em 1.25em;
 }
