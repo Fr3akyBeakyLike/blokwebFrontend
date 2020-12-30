@@ -298,8 +298,8 @@ section:nth-of-type(2) article ul li span {
 }
 
 section article ul li p {
-padding-left: .5em;
-padding-top: 0;
+  padding-left: .5em;
+  padding-top: 0;
 }
 
 /* Yung Lean tags */
@@ -309,5 +309,107 @@ section article:nth-of-type(3) ul li p {
 
 /* Starring you nu online */
 section article:nth-of-type(4) p {
- padding: 3em 1.25em 0em 1.25em;
+  padding: 3em 1.25em 0em 1.25em;
+  font-size: 0.875em;
+}
+
+/* -----------------------------*/
+/* ---------- Footer ----------*/
+/* -----------------------------*/
+
+footer,
+footer section:nth-of-type(1) {
+  background-color: #141414;
+  color: white;
+  padding-top: .5em;
+}
+
+/* Over Melkweg */
+footer section:nth-of-type(1) {
+  margin: 1em 1em .5em 1em;
+  padding: 1.250em;
+  border: 0.188em solid;
+  color: #fff;
+}
+
+footer section:nth-of-type(1) a {
+  color: white;
+}
+
+footer section:nth-of-type(1) p {
+  font-size: 0.875em;
+}
+
+/* Vind ons op social media */
+footer section:nth-of-type(2) {
+  padding-bottom: 1.250em;
+  border-bottom: 0.188em solid #333;
+  margin: 0 1em 0 1em;
+}
+
+footer section:nth-of-type(2) h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.250em;
+}
+
+footer section:nth-of-type(2) ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+footer section:nth-of-type(2) ul li {
+  margin: 0 .5em .5em 0;
+  width: 20%;
+}
+
+footer section:nth-of-type(2) ul li a {
+  color: white;
+  display: block;
+  padding: .5em;
+  font-weight: 700;
+  font-size: 1.7em;
+  text-align: center;
+  border: 0.15em solid;
+}
+
+/* Nieuwsbrief */
+
+footer aside {
+  margin-top: 2.5em;
+  background: #b40046;
+  padding: 1.250em;
+}
+
+footer aside h2 {
+  font-size: 1.250em;
+  text-transform: uppercase;
+}
+
+footer aside form {
+  display: flex;
+  width: 100%;
+}
+
+footer aside form input {
+  padding: 15px 0 15px 15px;
+  border: 0;
+  font-size: 0.875em;
+  background-color: #7e0031;
+  width: 60%;
+}
+
+footer aside form button {
+  display: block;
+  color: white;
+  background-color: #7e0031;
+  text-align: center;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+footer aside form input::placeholder {
+  color: white;
 }
