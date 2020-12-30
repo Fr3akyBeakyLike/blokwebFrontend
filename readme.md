@@ -52,25 +52,32 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
 
+**Screenshot(s):**
+
+### Verslag van meeting
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+Ik ben alleen nog aan het stylen van mijn header begonnen. Het was druk op mijn stage en daardoor ben ik niet veel verder gekomen. Het enige wat mij tegenvalt is dat er een padding is die ik zelf niet heb toegevoegd.
 
+### Verslag van meeting
+
+Ik was goed ziek geworden in het weekend. Hierdoor moest ik tijdens de meeting een coronatest doen. Sinds ik ook niet veel heb gedaan had ik ook geen vragen. Door een eerdere meeting ben ik erachter gekomen waarom mijn images niet toonde op de site (verkeerd doorgelinkt).
 
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik heb alleen nog aan mijn HTML gewerkt, dit ging voor mijn gevoel goed. 
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+Alleen de HTML van de homepage staat er.
 
 ### Agenda voor meeting
 
