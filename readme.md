@@ -18,10 +18,26 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 12. [Oefening 3 van Media Queries](https://codepen.io/fr3akybeakylike/pen/jOMqKVw)
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
-
+1. https://www.w3schools.com/cssref/sel_placeholder.asp
+2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+3. http://pxtoem.com/
+4. https://fontawesome.com/
+5. https://fontawesome.com/how-to-use/on-the-web/styling/icons-in-a-list
+6. https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons
+7. https://www.w3schools.com/icons/fontawesome5_intro.asp
+8. https://css-tricks.com/almanac/selectors/f/first-of-type/
+9. https://www.w3schools.com/cssref/sel_firstchild.asp
+10. https://love2dev.com/blog/customize-bulleted-list/
+11. https://css-tricks.com/almanac/properties/v/vertical-align/
+12. https://www.codecademy.com/learn/learn-css/modules/learn-css-display-positioning/cheatsheet
+13. https://grid.layoutit.com/
+14. https://css-tricks.com/snippets/css/complete-guide-grid/
+15. https://cssgridgarden.com/#nl
+16. https://css-tricks.com/almanac/properties/p/position/
+17. https://learncssgrid.com/
+18. https://codeofaninja.com/2014/03/textbox-with-search-icon-in-html-css.html
+19. https://stackoverflow.com/questions/6149658/how-to-select-multiple-elements-using-css
+20. https://www.melkweg.nl/nl/
 
 
 ## Eindgesprek (week 7/8)
@@ -36,25 +52,32 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
 
+**Screenshot(s):**
+
+### Verslag van meeting
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+Ik ben alleen nog aan het stylen van mijn header begonnen. Het was druk op mijn stage en daardoor ben ik niet veel verder gekomen. Het enige wat mij tegenvalt is dat er een padding is die ik zelf niet heb toegevoegd.
 
+### Verslag van meeting
+
+Ik was goed ziek geworden in het weekend. Hierdoor moest ik tijdens de meeting een coronatest doen. Sinds ik ook niet veel heb gedaan had ik ook geen vragen. Door een eerdere meeting ben ik erachter gekomen waarom mijn images niet toonde op de site (verkeerd doorgelinkt).
 
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik heb alleen nog aan mijn HTML gewerkt, dit ging voor mijn gevoel goed. 
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+Alleen de HTML van de homepage staat er.
 
 ### Agenda voor meeting
 
