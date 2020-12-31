@@ -10,6 +10,7 @@ body {
   font-family: Melkweg, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #141414;
 }
 
 /* Gehele header */
@@ -77,8 +78,6 @@ article img {
   width: 100%;
 }
 
-/* Form movement */
-
 header nav ul:nth-of-type(2) li:nth-of-type(6) {
   display: block;
   position: fixed;
@@ -132,7 +131,7 @@ article {
   position: relative;
   background: #fff;
   color: #141414;
-
+  padding-bottom: 1.5em;
 }
 
 article h2 {
@@ -167,7 +166,7 @@ section:nth-of-type(1) {
   background-color: #6b7a92;
   border-top: #141414 2em;
 
-  margin-top: 1.5em;
+  margin-top: .6em;
   padding: 1.875em 1.25em 0 1.25em;
 }
 
@@ -230,9 +229,13 @@ aside a {
   padding: 10px 15px;
   line-height: 2.5em;
   background: #b40046;
+  margin-top: .6em;
 }
 
 /* Articles */
+section:nth-of-type(2) article {
+  margin-top: .6em;
+}
 
 section:nth-of-type(2) article figure {
   width: 100%;
@@ -281,7 +284,7 @@ section:nth-of-type(2) article h2 {
 }
 
 section:nth-of-type(2) article ul {
-  padding: 3.450em 1.250em 2em 1.450em;
+  padding: 3.450em 1.250em 0em 1.450em;
   margin: 0;
   font-size: 0.813em;
   color: #666666;
