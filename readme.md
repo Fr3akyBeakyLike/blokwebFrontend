@@ -39,6 +39,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 19. https://stackoverflow.com/questions/6149658/how-to-select-multiple-elements-using-css
 20. https://www.melkweg.nl/nl/
 21. https://stackoverflow.com/questions/11184117/transparent-css-background-color
+22. https://www.w3schools.com/cssref/sel_active.asp
 
 
 ## Eindgesprek (week 7/8)
