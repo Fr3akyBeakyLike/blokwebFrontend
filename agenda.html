@@ -32,7 +32,7 @@
             <!-- Pages Nav -->
             <ul>
                 <li>
-                    <a href="https://www.melkweg.nl/nl/agenda">agenda</a>
+                    <a href="agenda.html">agenda</a>
                 </li>
 
                 <li>
@@ -46,64 +46,225 @@
                 <li>
                     <a href="https://www.melkweg.nl/nl/steun">steun</a>
                 </li>
-                <!-- Search button -->
-                <li>
-                    <button type="submit"><i class="fas fa-search"></i></button>
-                </li>
-                <li class="moveForm">
-                    <form action="">
-                        <input type="text" name="search" placeholder="Zoek">
-                        <button type="submit"><i class="fas fa-search"></i></button>
-                    </form>
-                </li>
             </ul>
         </nav>
     </header>
 
-    <nav>
+    <nav id="agenda">
         <ul>
             <li>
                 <button>Filters</button>
             </li>
-            <li class="moveForm">
-                <form action="">
+            <li>
+                <form action="search">
                     <input type="text" name="search" placeholder="Zoek">
                     <button type="submit"><i class="fas fa-search"></i></button>
                 </form>
             </li>
             <li>
-                <button></button>
+                <button><i class="far fa-calendar-alt"></i></button>
             </li>
         </ul>
     </nav>
 
-    <article>
-        <time datetime="2020-31-11">do 31 dec '20</time>
-        <h2>Starring you</h2>
-        <h3>Projection on melkweg facade & online presentation</h3>
+    <nav class="filters">
         <ul>
             <li>
-                <p></p>
+                <button>Concert</button>
             </li>
             <li>
-                <p></p>
+                <button>Festival</button>
+            </li>
+            <li>
+                <button>Clubnacht</button>
+            </li>
+            <li>
+                <button>Expositie</button>
+            </li>
+            <li>
+                <button>Film</button>
+            </li>
+            <li>
+                <button>Theater</button>
             </li>
         </ul>
-        <figure>
-            <img src="" alt="">
-            <figcaption>
-                <p></p>
-            </figcaption>
-        </figure>
-    </article>
+
+    </nav>
+
+    <main>
+        <article class="agendaArticle">
+            <time datetime="2020-31-11" class="agendaTime">di 19 jan '21</time>
+            <a href="https://www.melkweg.nl/nl/agenda/cine-mar-surf-movie-night-19-01-2021">
+                <div>
+                    <h2>Cine mar - surf movie night</h2>
+                    <h3>Presented by blue tomato</h3>
+                    <ul>
+                        <li>
+                            <span class="fa-li"></span><i class="fas fa-tag"></i>
+                            <p>Surffilms, 1,5 meter</p>
+                        </li>
+                        <li>
+                            <span class="fa-li"></span><i class="far fa-clock"></i>
+                            <time>20:30</time>
+                            <p>Film</p>
+                        </li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="../blokwebFrontend/images/surf-image.jfif" alt="foto van mannentepel, erg artistiek">
+                    <figcaption>
+                        <p>Gratis</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </article>
+
+        <article class="agendaArticle">
+            <time datetime="2021-22-01" class="agendaTime">vr 22 jan '21</time>
+            <a href="https://www.melkweg.nl/nl/agenda/a-story-to-tell-or-regarding-male-eating-disorders-22-01-2021">
+                <div>
+                    <h2>Opening a story to tell or regarding male eatig disorders</h2>
+                    <h3>Mafalda Rakoš</h3>
+                    <ul>
+                        <li>
+                            <span class="fa-li"></span><i class="fas fa-tag"></i>
+                            <p>Surffilms, 1,5 meter</p>
+                        </li>
+                        <li>
+                            <span class="fa-li"></span><i class="far fa-clock"></i>
+                            <time>20:30</time>
+                            <p>Film</p>
+                        </li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="../blokwebFrontend/images/male-eating-disorders.jfif"
+                        alt="foto van mannentepel, erg artistiek">
+                    <figcaption>
+                        <p>Gratis</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </article>
+
+        <article class="agendaArticle">
+            <time datetime="2021-19-01" class="agendaTime">di 19 jan '21</time>
+            <a href="https://www.melkweg.nl/nl/agenda/cine-mar-surf-movie-night-19-01-2021">
+                <div>
+                    <h2>Cine mar - surf movie night</h2>
+                    <h3>Presented by blue tomato</h3>
+                    <ul>
+                        <li>
+                            <span class="fa-li"></span><i class="fas fa-tag"></i>
+                            <p>Surffilms, 1,5 meter</p>
+                        </li>
+                        <li>
+                            <span class="fa-li"></span><i class="far fa-clock"></i>
+                            <time>20:30</time>
+                            <p>Film</p>
+                        </li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="../blokwebFrontend/images/surf-image.jfif" alt="foto van mannentepel, erg artistiek">
+                    <figcaption>
+                        <p>Gratis</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </article>
+    </main>
 
     <aside>
-        <img src="" alt="">
+        <img src="../blokwebFrontend/images/melkweg-hiphop.jfif" alt="foto's van hiphop perdormances">
         <h2>Melkweg Hiphop</h2>
         <p>Melkweg en hiphop is al jaren een ijzersterke combi! Houd onze hiphopagenda in de gaten via dit overzicht to
             see what’s up!</p>
     </aside>
 
+    <main>
+        <article class="agendaArticle">
+            <time datetime="2020-31-11" class="agendaTime">di 19 jan '21</time>
+            <a href="https://www.melkweg.nl/nl/agenda/cine-mar-surf-movie-night-19-01-2021">
+                <div>
+                    <h2>Cine mar - surf movie night</h2>
+                    <h3>Presented by blue tomato</h3>
+                    <ul>
+                        <li>
+                            <span class="fa-li"></span><i class="fas fa-tag"></i>
+                            <p>Surffilms, 1,5 meter</p>
+                        </li>
+                        <li>
+                            <span class="fa-li"></span><i class="far fa-clock"></i>
+                            <time>20:30</time>
+                            <p>Film</p>
+                        </li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="../blokwebFrontend/images/surf-image.jfif" alt="foto van mannentepel, erg artistiek">
+                    <figcaption>
+                        <p>Gratis</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </article>
+
+        <article class="agendaArticle">
+            <time datetime="2021-22-01" class="agendaTime">vr 22 jan '21</time>
+            <a href="https://www.melkweg.nl/nl/agenda/a-story-to-tell-or-regarding-male-eating-disorders-22-01-2021">
+                <div>
+                    <h2>Opening a story to tell or regarding male eatig disorders</h2>
+                    <h3>Mafalda Rakoš</h3>
+                    <ul>
+                        <li>
+                            <span class="fa-li"></span><i class="fas fa-tag"></i>
+                            <p>Surffilms, 1,5 meter</p>
+                        </li>
+                        <li>
+                            <span class="fa-li"></span><i class="far fa-clock"></i>
+                            <time>20:30</time>
+                            <p>Film</p>
+                        </li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="../blokwebFrontend/images/male-eating-disorders.jfif"
+                        alt="foto van mannentepel, erg artistiek">
+                    <figcaption>
+                        <p>Gratis</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </article>
+
+        <article class="agendaArticle">
+            <time datetime="2021-19-01" class="agendaTime">di 19 jan '21</time>
+            <a href="https://www.melkweg.nl/nl/agenda/cine-mar-surf-movie-night-19-01-2021">
+                <div>
+                    <h2>Cine mar - surf movie night</h2>
+                    <h3>Presented by blue tomato</h3>
+                    <ul>
+                        <li>
+                            <span class="fa-li"></span><i class="fas fa-tag"></i>
+                            <p>Surffilms, 1,5 meter</p>
+                        </li>
+                        <li>
+                            <span class="fa-li"></span><i class="far fa-clock"></i>
+                            <time>20:30</time>
+                            <p>Film</p>
+                        </li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="../blokwebFrontend/images/surf-image.jfif" alt="foto van mannentepel, erg artistiek">
+                    <figcaption>
+                        <p>Gratis</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </article>
+    </main>
 </body>
 
 </html>
