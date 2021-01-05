@@ -13,11 +13,11 @@ function moveSearchForm() {
 }
 
 // Agenda page
-filterButton = document.querySelector("header nav#agenda il li:nth-of-type(1) button")
+filterButton = document.querySelector("nav li > button")
 
 filterButton.addEventListener("click", showFilters);
 
 function showFilters() {
-    let showFilters = document.querySelector("")
-    showFilters.classList.toggle("")
+    let showFilters = document.querySelector("nav li > button")
+    showFilters.classList.toggle("filters");
 }

@@ -640,14 +640,14 @@ article.agendaArticle:nth-of-type(2) figure {
 }
 
 /* Melkweg hiphop */
-aside {
+aside#hiphop {
   background-color: white;
   margin-top: 3em;
   position: relative;
   padding: 0.625em;
 }
 
-aside img {
+aside#hiphop img {
   width: 12.5em;
   position: absolute;
   top: -2.5em;
@@ -655,11 +655,11 @@ aside img {
   left: 0;
 }
 
-aside h2 {
+aside#hiphop h2 {
 margin: 0;
 }
 
-aside p {
+aside#hiphop p {
   margin: .5em 0 0 0;
   font-size: .8em;
 }
@@ -672,8 +672,38 @@ nav:nth-of-type(2) {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   top: 0;
+  padding: 0.3125em;
+
+  transform: translateX(100%);
 }
 
-/* .filters {
-  
-} */
+nav:nth-of-type(2) ul {
+  list-style: none;
+  background-color: #6b7a92;
+  margin: 0;
+  padding: 0.1em 0.9375em 1.5em 0.9375em;
+}
+
+nav:nth-of-type(2) ul:nth-of-type(2) {
+  display: block;
+  border-top: 0.125em solid #2b313a;;
+}
+
+nav:nth-of-type(2) ul:nth-of-type(3) {
+  display: flex;
+  border-top: 0.125em solid #2b313a;;
+}
+
+nav:nth-of-type(2) ul li {
+  margin-top: 1.2em;
+}
+
+nav:nth-of-type(2) ul li button {
+  color: white;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+
+.filters {
+  transform: translateX(0%);
+}
