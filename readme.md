@@ -38,6 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 18. https://codeofaninja.com/2014/03/textbox-with-search-icon-in-html-css.html
 19. https://stackoverflow.com/questions/6149658/how-to-select-multiple-elements-using-css
 20. https://www.melkweg.nl/nl/
+21. https://stackoverflow.com/questions/11184117/transparent-css-background-color
 
 
 ## Eindgesprek (week 7/8)
