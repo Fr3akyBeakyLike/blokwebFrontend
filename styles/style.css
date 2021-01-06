@@ -691,6 +691,18 @@ nav:nth-of-type(2) ul {
   padding: 0.1em 0.9375em 1.5em 0.9375em;
 }
 
+nav:nth-of-type(2) ul li {
+ display: flex;
+ justify-content: space-between;
+}
+
+nav:nth-of-type(2) ul li .fa-times {
+ color: #6b7a92;
+padding-right: 1em;
+font-size: .7em;
+ line-height: 2.8em;
+ }
+
 nav:nth-of-type(2) ul:nth-of-type(2) {
   display: block;
   border-top: 0.125em solid #2b313a;
@@ -732,6 +744,10 @@ nav:nth-of-type(2) ul li button {
   color: #000000 !important;
 }
 
+.hideMain {
+  display: none !important;
+}
+
 /* ------------------------------ */
 /* Responsive iphone 5/SE styling */
 /* ------------------------------ */
@@ -757,6 +773,73 @@ nav:nth-of-type(2) ul li button {
   body nav#agenda ul li:nth-of-type(3) {
     padding: 0 .5em;
   }
+}
+
+nav aside {
+  display: flex;
+  padding: 0.625em;
+  margin-top: 0.125em;
+  background-color: #6b7a92;
+  display: none;
+}
+
+nav aside p {
+color: white;
+text-transform: uppercase;
+padding: 0;
+margin: 0 1em 0 0;
+font-size: 0.875em;
+line-height: 1.5em;
+}
+
+nav aside button {
+color: white;
+background-color: #4b5566;
+text-transform: uppercase;
+padding: 0 7px;
+margin: 0;
+font-size: 0.875em;
+line-height: 1.5em;
+}
+
+nav aside button .fa-times {
+  font-size: .7em;
+}
+
+.showFilterAside {
+  display: flex;
+}
+
+body#agendaPage div article {
+  background-color: #b40046;
+  color: white;
+  padding: 0.625em;
+  margin: .325em 0 0 0;
+}
+
+body#agendaPage div article h2 {
+  padding: 0 0 .2em 0;
+  margin: 0;
+  font-size: 1.1em;
+}
+
+body#agendaPage div article p {
+  padding: 0 0 2em 0;
+  margin: 0;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+body#agendaPage div article p a {
+  color: white;
+}
+
+.showArticle {
+  display: none;
+}
+
+.hideMain {
+  display: none;
 }
 
 /* ------------------------------ */

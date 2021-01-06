@@ -17,6 +17,9 @@ clickFilter = document.querySelector("body nav:nth-of-type(2) ul:nth-of-type(2) 
 
 clickFilter.addEventListener("click", styleList);
 clickFilter.addEventListener("click", styleButton);
+clickFilter.addEventListener("click", addAsideFilter);
+clickFilter.addEventListener("click", toggleArticleOn);
+clickFilter.addEventListener("click", toggleMain);
 
 function styleList() {
     let styleList = document.querySelector("body nav:nth-of-type(2) ul:nth-of-type(2) li:nth-of-type(3)");
@@ -26,4 +29,19 @@ function styleList() {
 function styleButton() {
     let styleButton = document.querySelector("body nav:nth-of-type(2) ul:nth-of-type(2) li:nth-of-type(3) button");
     styleButton.classList.toggle("clickButton");
+}
+
+function addAsideFilter() {
+    let addAsideFilter = document.querySelector("body nav aside");
+    addAsideFilter.classList.toggle("showFilterAside");
+}
+
+function toggleArticleOn() {
+    let toggleArticleOn = document.querySelector("body div article");
+    toggleArticleOn.classList.toggle("showArticle");
+}
+
+function toggleMain() {
+    let toggleMain = document.querySelector("body main");
+    toggleMain.classList.toggle("hideMain");
 }
