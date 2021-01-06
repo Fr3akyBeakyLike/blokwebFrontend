@@ -20,6 +20,7 @@ clickFilter.addEventListener("click", styleButton);
 clickFilter.addEventListener("click", addAsideFilter);
 clickFilter.addEventListener("click", toggleArticleOn);
 clickFilter.addEventListener("click", toggleMain);
+clickFilter.addEventListener("click", toggleMainTwo);
 
 function styleList() {
     let styleList = document.querySelector("body nav:nth-of-type(2) ul:nth-of-type(2) li:nth-of-type(3)");
@@ -44,4 +45,9 @@ function toggleArticleOn() {
 function toggleMain() {
     let toggleMain = document.querySelector("body main");
     toggleMain.classList.toggle("hideMain");
+}
+
+function toggleMainTwo() {
+    let toggleMainTwo = document.querySelector("body main:nth-of-type(2)");
+    toggleMainTwo.classList.toggle("hideMain");
 }
