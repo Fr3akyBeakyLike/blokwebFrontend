@@ -692,16 +692,16 @@ nav:nth-of-type(2) ul {
 }
 
 nav:nth-of-type(2) ul li {
- display: flex;
- justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav:nth-of-type(2) ul li .fa-times {
- color: #6b7a92;
-padding-right: 1em;
-font-size: .7em;
- line-height: 2.8em;
- }
+  color: #6b7a92;
+  padding-right: 1em;
+  font-size: .7em;
+  line-height: 2.8em;
+}
 
 nav:nth-of-type(2) ul:nth-of-type(2) {
   display: block;
@@ -784,22 +784,22 @@ nav aside {
 }
 
 nav aside p {
-color: white;
-text-transform: uppercase;
-padding: 0;
-margin: 0 1em 0 0;
-font-size: 0.875em;
-line-height: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0 1em 0 0;
+  font-size: 0.875em;
+  line-height: 1.5em;
 }
 
 nav aside button {
-color: white;
-background-color: #4b5566;
-text-transform: uppercase;
-padding: 0 7px;
-margin: 0;
-font-size: 0.875em;
-line-height: 1.5em;
+  color: white;
+  background-color: #4b5566;
+  text-transform: uppercase;
+  padding: 0 7px;
+  margin: 0;
+  font-size: 0.875em;
+  line-height: 1.5em;
 }
 
 nav aside button .fa-times {
@@ -855,4 +855,3 @@ body#agendaPage div article p a {
     font-size: .9em;
   }
 }
-
