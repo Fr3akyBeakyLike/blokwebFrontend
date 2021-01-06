@@ -56,11 +56,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 3 (week 6)
 
 ### Stand van zaken
+Mijn hele homepage is gestyled op iphoneX formaat. Op Iphone SE en Galaxy Note is de "Net Bevestigd" sectie nog niet goed responsive. De h2's zijn via position absolute onder de images gepositioneerd. Dit kan beter via flex en order gedaan worden, dit maakt het responsive.
+
+De HTML van de agenda page is in zijn geheel uitgewerkt. Het moet nog in zijn geheel gestyled worden. Behalve de header dan.
 
 **Screenshot(s):**
 
 ### Verslag van meeting
-
+Het was nogal chaos in mijn huis en hierdoor ben ik vergeten aan te geven dat ik niet bij de meeting kon zijn. Tijdens de meeting had ik een functioneringsgesprek, thuis was net gemeld dat we in lockdown moesten omdat mijn vader corona heeft en er was flinke lekkage. Door al deze hectiek had ik een andere tijd van de meeting in mijn hoofd en was ik helaas niet bij de meeting.
 
 ## Voortgang 2 (week 5)
 
@@ -70,7 +73,7 @@ Ik ben alleen nog aan het stylen van mijn header begonnen. Het was druk op mijn 
 
 ### Verslag van meeting
 
-Ik was goed ziek geworden in het weekend. Hierdoor moest ik tijdens de meeting een coronatest doen. Sinds ik ook niet veel heb gedaan had ik ook geen vragen. Door een eerdere meeting ben ik erachter gekomen waarom mijn images niet toonde op de site (verkeerd doorgelinkt).
+Ik was goed ziek geworden in het weekend. Hierdoor moest ik tijdens de meeting een coronatest doen. Sinds ik ook niet veel heb gedaan had ik ook geen vragen. Door een eerdere meeting ben ik erachter gekomen waarom mijn images niet toonde op de site (verkeerd doorgelinkt). Ik heb Deanna hierover gesproken en als ik vragen had kon ik alsnog bij haar terecht.
 
 ## Voortgang 1 (week 3)
 
