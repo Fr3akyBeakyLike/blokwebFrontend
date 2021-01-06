@@ -47,10 +47,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+Op een gegeven moment had ik het flexen en het beasisstijlen goed onder de knie. Positioneren en flexbox waren redelijk te doen. Ik begon vast te lopen met de JS 3 stap. Op de eerste pagina (de homepage) verliep het goed. Toen ik hem op mijn tweede pagina ook wilde gebruiken was ik vergeten dat je in je html moest linken. Dit was al in de basis voor je gedaan, dus ik had hier helemaal niet meer aan gedacht (dit heeft mij uren gekost...). Daarnaast vond ik het stylen van de articles op de agenda page heel lastig met de image links en de teksten rechts. Ik wilde dit met flex doen en dit is denk ik niet de beste oplossing, iniedergeval voor responsiveness. Je kunt hier denk ik beter grid voor gebruiken, maar grid was iets waar ik echt bij vast liep. 
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
+<img src="images/homepage.png" width="375px" alt="Homepage">
+<img src="images/search.png" width="375px" alt="Homepage nadat er op de zoek knop gedrukt is">
+<img src="images/agenda.png" width="375px" alt="Agenda pagina">
+<img src="images/filter.png" width="375px" alt="Filter popup">
+<img src="images/agenda-na-filter.png" width="375px" alt="Agenda nadat er gefilterd is op gratis voor jaarleden">
 
 
 
