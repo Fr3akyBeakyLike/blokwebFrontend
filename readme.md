@@ -51,7 +51,6 @@ Op een gegeven moment had ik het flexen en het beasisstijlen goed onder de knie.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
 <img src="images/homepage.png" width="375px" alt="Homepage">
 <img src="images/search.png" width="375px" alt="Homepage nadat er op de zoek knop gedrukt is">
 <img src="images/agenda.png" width="375px" alt="Agenda pagina">
