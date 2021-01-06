@@ -56,6 +56,10 @@ header nav ul ul li:nth-of-type(1) {
   color: #fff;
 }
 
+header nav ul ul li:nth-of-type(2) a {
+  color: #48001c;
+}
+
 header nav ul ul:nth-of-type(1) a {
   font-size: 0.75em;
 }
@@ -64,7 +68,7 @@ header nav ul ul:nth-of-type(1) a {
 ul:nth-of-type(2) {
   display: flex;
   background-color: #141414;
-  padding: 0em 1em;
+  padding: 0.3em 1em;
 }
 
 header nav li {
@@ -454,9 +458,13 @@ footer aside form input::placeholder {
 /* -------------------------------AGENDA------------------------------ */
 /* ------------------------------------------------------------------- */
 
-header nav ul li a:active {
-  background: #333;
+#activePage {
+  background-color: #333;
 }
+
+/* header nav ul li a:active {
+  background: #333;
+} */
 
 body nav:nth-of-type(1) {
   transition: .5s;
@@ -629,8 +637,8 @@ article.agendaArticle figure figcaption {
   line-height: .2em;
 }
 
-article.agendaArticle:nth-of-type(2), 
-article.agendaArticle:nth-of-type(2) figure, 
+article.agendaArticle:nth-of-type(2),
+article.agendaArticle:nth-of-type(2) figure,
 article.agendaArticle:nth-of-type(2) figure img {
   height: 11em;
 }
@@ -656,7 +664,7 @@ aside#hiphop img {
 }
 
 aside#hiphop h2 {
-margin: 0;
+  margin: 0;
 }
 
 aside#hiphop p {
@@ -673,8 +681,7 @@ nav:nth-of-type(2) {
   background-color: rgba(0, 0, 0, 0.5);
   top: 0;
   padding: 0.3125em;
-
-  transform: translateX(100%);
+  display: none;
 }
 
 nav:nth-of-type(2) ul {
@@ -686,12 +693,23 @@ nav:nth-of-type(2) ul {
 
 nav:nth-of-type(2) ul:nth-of-type(2) {
   display: block;
-  border-top: 0.125em solid #2b313a;;
+  border-top: 0.125em solid #2b313a;
 }
 
 nav:nth-of-type(2) ul:nth-of-type(3) {
   display: flex;
-  border-top: 0.125em solid #2b313a;;
+  border-top: 0.125em solid #2b313a;
+}
+
+nav:nth-of-type(2) ul:nth-of-type(3) li:nth-of-type(1) button {
+  background-color: #4b5566;
+  padding: 1em 4em;
+  text-transform: capitalize;
+}
+
+nav:nth-of-type(2) ul:nth-of-type(3) li:nth-of-type(2) button {
+  padding: 1em 4em;
+  text-transform: capitalize;
 }
 
 nav:nth-of-type(2) ul li {
@@ -705,5 +723,53 @@ nav:nth-of-type(2) ul li button {
 }
 
 .filters {
-  transform: translateX(0%);
+  display: block !important;
 }
+
+.clickButton {
+  background-color: white;
+  line-height: 2em;
+  color: #000000 !important;
+}
+
+/* ------------------------------ */
+/* Responsive iphone 5/SE styling */
+/* ------------------------------ */
+
+@media (max-width: 320px) {
+  article a:nth-of-type(2) {
+    margin-right: 58%;
+  }
+
+  section:nth-of-type(1) ul a {
+    grid-template-columns: 30% 70%;
+    font-size: .9em;
+  }
+
+  footer section:nth-of-type(2) ul li a {
+    padding: .3em;
+  }
+
+  body nav#agenda ul li:nth-of-type(1) {
+    padding: 0;
+  }
+
+  body nav#agenda ul li:nth-of-type(3) {
+    padding: 0 .5em;
+  }
+}
+
+/* ------------------------------ */
+/* Responsive Galaxy Note 3 styling */
+/* ------------------------------ */
+@media (min-width: 360px) {
+  article a:nth-of-type(2) {
+    margin-right: 63%;
+  }
+
+  section:nth-of-type(1) ul a {
+    grid-template-columns: 30% 70%;
+    font-size: .9em;
+  }
+}
+
