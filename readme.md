@@ -60,6 +60,14 @@ Mijn hele homepage is gestyled op iphoneX formaat. Op Iphone SE en Galaxy Note i
 
 De HTML van de agenda page is in zijn geheel uitgewerkt. Het moet nog in zijn geheel gestyled worden. Behalve de header dan.
 
+Wat me nog te doen staat voor het eindgesprek:
+1. Articles stylen met flex en order.
+2. Agenda page stylen
+3. Responsiveness "Net bevestigd" sectie fixen.
+4. Meer interacties toevoegen bij de agenda page.
+5. Toegankelijkheid checken en zover mogelijk fixen via: [wcag.nl](https://wcag.nl/quickscan/NvjJmgK8aXwaIliS0jtF)
+6. CSS valideren via: [w3c validatie checker](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffr3akybeakylike.github.io%2FblokwebFrontend%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=nl)
+
 **Screenshot(s):**
 
 ### Verslag van meeting
