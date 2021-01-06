@@ -41,6 +41,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 21. https://stackoverflow.com/questions/11184117/transparent-css-background-color
 22. https://www.w3schools.com/cssref/sel_active.asp
 23. https://stackoverflow.com/questions/53085058/why-is-display-flex-hiding-first-image-in-a-row
+24. https://www.aditus.io/aria/aria-label/#:~:text=Over%2Dusing%20it-,Definition,content%20as%20the%20accessibility%20label.
 
 
 ## Eindgesprek (week 7/8)
